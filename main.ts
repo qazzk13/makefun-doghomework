@@ -5,7 +5,7 @@ import { join } from "node:path";
 // The Dog Ate My Homework — the dog's own account of the incident,
 // given freely and without much remorse.
 const LINE =
-  "I ate the essay, yes, but it had peanut butter on page two and nobody in this house ever told me homework was not a snack. I would do it again.";
+  "I ate the essay, but hear me out: page two had peanut butter on it, and nobody ever sat me down and explained homework is not a snack. I regret nothing.";
 
 if (LINE.length < 1 || LINE.length > 200) {
   throw new Error(`entry must be 1-200 characters, got ${LINE.length}`);
